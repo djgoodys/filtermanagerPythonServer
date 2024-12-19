@@ -8,6 +8,8 @@ dj-database-url
 whitenoise
 atlas-provider-django
 djongo
+python-dotenv
+
 
 
 
