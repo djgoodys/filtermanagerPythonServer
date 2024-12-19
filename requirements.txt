@@ -8,6 +8,7 @@ dj-database-url
 whitenoise
 atlas-provider-django
 djongo
+filtermanagerPython
 
 
 
