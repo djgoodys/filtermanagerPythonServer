@@ -2,7 +2,11 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-print(sys.path)
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
 dir_path = os.path.dirname(os.path.realpath(__file__))
 parent_dir_path = os.path.abspath(os.path.join(dir_path, os.pardir))
 sys.path.insert(0, parent_dir_path)
