@@ -13,7 +13,7 @@ sys.path.insert(0, parent_dir_path)
 
 def main():
     """Run administrative tasks."""
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'filtermanagerPython.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Python.filtermanagerPython.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
